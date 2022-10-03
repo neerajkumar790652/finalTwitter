@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="icon" type="image/png"href="logo.png"/>
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&family=Josefin+Slab:wght@100&family=Oswald:wght@300&family=Pacifico&family=Praise&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main-page">
+        <div class="left">
+            <div class="left-content">
+                <div>
+                <i class="fas fa-search"></i>
+                <h3 class="left-content-heading">Find your Interest</h3>
+                </div>
+            <div>
+                <i class="fas fa-user-friends"></i>
+                <h3 class="left-content-heading">Explore what people are talking about</h3>
+            </div>
+            <div>
+                <i class="fas fa-comment"></i>
+                <h3 class="left-content-heading">Join the people</h3>
+            </div>
+            </div>
+        </div>
+        <div class="right">
+                <form class="right-content-form">
+                    <input type="text" class="user-info" placeholder="Phone, email, or username"/>
+                    <div>
+                        <input type="password" class="password" placeholder="Password"/>
+                        <label>Forgot Password?</label>
+                    </div>
+                    <button type="button" class="btn-top">Log in</button>
+                </form>
+                <div class="middle-content">
+                    <i class="fas fa-dove"></i>
+                    <h1>explore what's hapenning in the world</h1>
+                    <h4>Join Twitter today</h4>
+                    <button type="button" class="sign-up main-btn">Sign Up</button>
+                    <button type="button" class="log-in main-btn">Log In</button>
+                </div>
+            </div>
+        <footer class="main-page-footer">
+            <ul>
+                <li><a href="#"></a>About</li>
+                <li><a href="#"></a>Blog</li>
+                <li><a href="#"></a>Help</li>
+                <li><a href="#"></a>terms</li>
+                <li><a href="#"></a>Apps</li>
+                <li><a href="#"></a>Setting</li>
+                <li><a href="#"></a>Contact</li>
+                <li><a href="#"></a>Privacy Policy</li>
+                <li><a href="#"></a>Brands</li>
+                <li><a href="#"></a>Developers</li>
+                <li><a href="#"></a>&copy; 2022 Twitter</li>
+                <li><a href="#"></a>About</li>
+            </ul>
+        </footer>
+    </section>
+    <!-- main login page -->
+    <section class="login-page">
+        <nav class="login-page-nav">
+            <ul><li class="brand"><a href="" ><i class="fas fa-dove"></i>Home</a></li></ul>
+            <ul><li><a href="">About</a></li></ul>
+            <ul><li ><a href="">Language:English</a></li></ul>
+        </nav>
+        <div class="login">
+            <div class="login-content">
+                <h2>Log in to Twitter</h2>
+                <form class="login-form">
+                    <input type="text" placeholder="Phone email or username" class="loginpage-user">
+                    <input type="password" placeholder="password" class="loginpage-password">
+                    <div>
+                        <button class="login-form-btn">Log In</button>
+                        <input type="checkbox" class="login-form-checkbox" id="check">
+                        <label  for="check">Remember me</label>
+                        <a href="#">Forget Password?</a>
+                    </div>
+                </form>
+            </div>
+            <footer class="login-footer">
+                <p>New to Twitter?<a href="#">Sign up now</a></p>
+                <p>Already using twitter via text message<a href="#">Activate your account</a></p>
+            </footer>
+        </div>
+    </section>
+    <!-- end of main login page -->
+<!-- login model -->
+<div class="login-model">
+    <i class="fas fa-times"></i>
+    <p>username and password you enter did not match
+        our record please double check and try again
+    </p>
+</div>
+    <!-- start of feed page -->
+    <section class="feeds-page">
+        <!-- feeds nav -->
+        <nav  class="feeds-nav dark-mode-1">
+            <div class="icons">
+                <a href="#" class="active"><i class="fas fa-home"></i></a>
+                <a href="#"><i class="fas fa-hashtag"></i></a>
+                <a href="#"><i class="far fa-bell"></i></a>
+                <a href="#"><i class="far fa-envelope"></i></a>
+            </div>
+            <div class="search-bar">
+                <i class="fas fa-search"></i>
+                <input type="text" placeholder="Search twitter" class="search-bar-input light-text dark-mode-2 border"/>
+            </div>
+            <div class="user">
+                <div class="user-img-wrapper">
+                    <img src="myimage.jpeg" />
+
+                </div>
+                <a href="#" class="user-link light-text">Neeraj Rajput</a>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </nav>
+        <div class="feeds-content dark-mode-2">
+        <div class="feeds-header dark-mode-1">
+            <div class="header-top border">
+                <h4 class="light-text">Home</h4>
+                <i class="far fa-star"></i>
+            </div>
+            <div class="header-post dark-mode-1 border">
+                <div class="header-img-wrapper">
+                <img src="myimage.jpeg"/>
+                <input type="text" placeholder="what's happening" class="dark-mode-2 light-text border"/>
+                <i class="far fa-image" style="left:45rem"></i>
+                <i class="fas fa-camera" style="left: 50rem"></i>
+                <i class="far fa-chart-bar" style="left:55rem"></i>
+                </div>
+            </div>
+            <div class="posts dark-mode-1 border">
+                <div class="post">
+                 <div class="user-avatar">
+                     <img src="user2.jpeg">
+                 </div>
+                 <div class="post-content">
+                     <div class="post-user-info light-text">
+                         <h4>Pavan kumar</h4>
+                         <i class="fas fa-check-circle"></i>
+                         <span>@pavankumar 16m</span>
+                     </div>
+                     <p class="post-text light-text"> #nature #naturelover<br>रुको मत आगे बढ़ते रहो जरुर पूरी होगी तुम्हारी चाह…
+
+                        तुम कर्म करो कठोर से कठोर मेहनत करो…
+                        
+                        बस यही है प्रकृति की सलाह…
+                        
+                        कभी भाग्य के करिश्में की लालसा में नहीं रुकना…
+                        
+                        नहीं तो कभी मंजिल दिखेगी ना दिखेगी राह…</p>
+                        <div class="post-img">
+                            <img src="user1.jpeg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fa-solid fa-share-from-square" style="margin-right:0px;"></i>
+                        </div>
+                 </div>
+                </div>
+            </div>
+            <!-- second post -->
+            <div class="posts dark-mode-1 border">
+                <div class="post">
+                 <div class="user-avatar">
+                     <img src="user3(1).jpg">
+                 </div>
+                 <div class="post-content">
+                     <div class="post-user-info light-text">
+                         <h4>MD Kaif</h4>
+                         <i class="fas fa-check-circle"></i>
+                         <span>@MDkaif786 25m</span>
+                     </div>
+                     <p class="post-text light-text">
+                         #food #foodie #foodaddictive<br>
+                         We must always respect the food we get
+                         because it is the blessing of God and
+                         love from someone who cares for us…..
+                    </p>
+                        <div class="post-img">
+                            <img src="post2.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fa-solid fa-share-from-square"style="margin-right:0px;"></i>
+                        </div>
+                 </div>
+                </div>
+            </div>
+            <!-- third post -->
+            <div class="posts dark-mode-1 border">
+                <div class="post">
+                 <div class="user-avatar">
+                     <img src="user 4.jpg">
+                 </div>
+                 <div class="post-content">
+                     <div class="post-user-info light-text">
+                         <h4>Vishal Chhillar</h4>
+                         <i class="fas fa-check-circle"></i>
+                         <span>@vishalchutiya420 25m</span>
+                     </div>
+                     <p class="post-text light-text">#tech #technology #engineer<br>
+                        The simplest form of technology is the development and use of basic tools.</p>
+                        <div class="post-img">
+                            <img src="post3.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fa-solid fa-share-from-square" style="margin-right:0px;"></i>
+                        </div>
+                 </div>
+                </div>
+            </div>
+            <!-- fourth -->
+           <div class="posts dark-mode-1 border">
+                <div class="post">
+                 <div class="user-avatar">
+                     <img src="myimage.jpeg">
+                 </div>
+                 <div class="post-content">
+                     <div class="post-user-info light-text">
+                         <h4>Neeraj Rajput</h4>
+                         <i class="fas fa-check-circle"></i>
+                         <span>@neerajkr0601 36m</span>
+                     </div>
+                     <p class="post-text light-text">#Musafir &#10084<br>
+                        The world is a book and those who do not travel read only one page</p>
+                        <div class="post-img">
+                            <img src="post4.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fa-solid fa-share-from-square" style="margin-right:0px;"></i>
+                        </div>
+                 </div>
+                </div>
+            </div>
+            <!-- fifth -->
+            <div class="posts dark-mode-1 border">
+                <div class="post">
+                 <div class="user-avatar">
+                     <img src="user5.jpg">
+                 </div>
+                 <div class="post-content">
+                     <div class="post-user-info light-text">
+                         <h4>Puspendra kushwah</h4>
+                         <i class="fas fa-check-circle"></i>
+                         <span>@kushwahpusp123 1hr 5m</span>
+                     </div>
+                     <p class="post-text light-text">#love #lover #manju<br>
+                        “The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.”</p>
+                        <div class="post-img">
+                            <img src="post5.jpg">
+                        </div>
+                        <div class="post-icons">
+                            <i class="far fa-comment"></i>
+                            <i class="fa-solid fa-retweet"></i>
+                            <i class="far fa-heart"></i>
+                            <i class="fa-solid fa-share-from-square" style="margin-right:0px;"></i>   
+                        </div>
+                 </div>
+                </div>
+            </div>
+            </div>
+            <div class="follow dark-mode-1 ">
+                <h3 class="follow-heading light-text border">Who to follow</h3>
+                <div class="follow-user border">
+                    <div class="follow-user-img">
+                        <img src="./images/ayushi.jpg"/>
+                    </div>
+                    <div class="follow-user-info light-text">
+                        <h4>Ayushi sharma</h4> 
+                        <p>@ayushisharma</p>
+                    </div>
+                    <div>
+                    <button class="follow-btn dark-mode-2">follow</button>
+                </div>
+                </div>
+                    <div class="follow-user border">
+                        <div class="follow-user-img">
+                            <img src="user3(1).jpg"/>
+                        </div>
+                        <div class="follow-user-info light-text">
+                            <h4>MD Kaif</h4>
+                            <p>@MDkaif786</p>
+                        </div>
+                        <div>
+                        <button class="follow-btn dark-mode-2">follow</button>
+                    </div>
+                </div>    
+                 <div class="follow-user border">
+                        <div class="follow-user-img">
+                            <img src="user 4.jpg"/>
+                        </div>
+                        <div class="follow-user-info light-text">
+                            <h4>Jon snow</h4>
+                            <p>@Jonsnow789</p>
+                        </div>
+                        <div>
+                        <button class="follow-btn dark-mode-2">follow</button>
+                    </div>
+                </div>
+                    <!-- <div class="follow-user">
+                        <div class="follow-user-img">
+                            <img src="images/myimage.jpeg"/>
+                        </div>
+                        <div class="follow-user-info">
+                            <h4>Neeraj kumar</h4>
+                            <p>@neerajkr0601</p>
+                        </div>
+                        <div>
+                        <button class="follow-btn">follow</button>
+                    </div>
+                </div>
+                 -->
+<!--              
+                    <div class="follow-user">
+                        <div class="follow-user-img">
+                            <img src="images/user3.jpg"/>
+                        </div>
+                        <div class="follow-user-info">
+                            <h4>sohan</h4>
+                            <p>@sohankumar123</p>
+                        </div>
+                        <div>
+                        <button class="follow-btn">follow</button>
+                    </div>
+                    </div> -->
+                    <div class="follow-link">
+                        <a href="#">Show more</a>
+                    </div>
+                    <footer class="follow-footer dark-mode-2">
+                        <ul>
+                            <li><a href="#">terms</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                            <li><a href="#">cookies</a></li>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">Helps</a></li>
+                        </ul>
+                    </footer>
+                </div>
+            </div>   
+        </div>
+        <button type="button"class="post-btn">
+<i class="fas fa-feather-alt"></i>&nbspPost
+        </button>
+<!-- postmodel -->
+<div class="model-wrapper">
+    <div class="model dark-mode-1">
+        <div class="model-header border">
+            <i class="fas fa-times"></i>
+            <button type="button">Post</button>
+        </div>
+        <div class="model-body">
+            <div class="model-img">
+                <img src="myimage.jpeg"width="40px">
+            </div>
+            <input type="text" placeholder="what's happening ?" class="model-input dark-mode-2 light-text border"/>
+            <i class="far fa-smile"></i>
+        </div>
+        <div class="model-footer">
+            <div class="model-icon">
+                <i class="far fa-image"></i>
+                <i class="far fa-camera"></i>
+                <i class="far fa-chart-bar"></i>
+                <span>+</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end postmodel -->
+<!-- sidebar -->
+<div class="sidebar-wrapper">
+    <div class="sidebar dark-mode-1">
+        <div class="sidebar-header border">
+            <h2 class="light-text">Account info</h2>
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="sidebar-user">
+            <div class="sidebar-user-img">
+                <img src="myimage.jpeg"width="40px">
+            </div>
+            <span>+</span>
+        </div>
+        <div class="sidebar-user-info light-text">
+            <h4>Neeraj Rajput</h4>
+            <p>@neerajkr0601</p>
+        </div>
+        <div class="following light-text">
+            <p class="following-paragraph">
+                <span>10.6M</span> followers
+            </p>
+            <p class="following-paragraph">
+                <span>200</span> following
+            </p>
+        </div>
+        <div class="sidebar-list-1 border">
+            <ul>
+                <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
+                <li><a href="#"><i class="far fa-list-alt"></i>Lists</a></li>
+                <li><a href="#"><i class="far fa-bookmark"></i>Bookmarks</a></li>
+                <li><a href="#"><i class="fab fa-adversal"></i>Ads</a></li>
+                <li><a href="#"><i class="fas fa-chart-line"></i>Analytics</a></li>
+            </ul>
+        </div>
+        <div class="sidebar-list-2">
+            <ul>
+                <li><a href="#">Settings and privacy</a></li>
+                <li><a href="#">Help center</a></li>
+                <li><a href="#" class="logout-sidebar">logout</a></li>
+            </ul>
+        </div>
+        <!-- darkmode -->
+        <div class="dark-mode">
+            <p>Dark mode</p>
+            <div class="toggle">
+                <div class="circle"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end sidebar -->
+    </section>
+    <!-- end of feed page -->
+   <script src="index.js"></script> 
+</body>
+</html>
